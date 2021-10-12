@@ -18,21 +18,22 @@ exit 0
 fi
 mkdir /var/lib/premium-script;
 echo "IP=" >> /var/lib/premium-script/ipvps.conf
-wget https://raw.githubusercontent.com/dpvpn09/rev/main/cf.sh && chmod +x cf.sh && ./cf.sh
+wget https://queenssh.tk/wdkusc/add-host.sh && chmod +x add-host.sh && ./add-host.sh
 #install ssh ovpn
-wget https://raw.githubusercontent.com/dpvpn09/rev/main/ssh.sh && chmod +x ssh.sh && screen -S ssh ./ssh.sh
-wget https://raw.githubusercontent.com/dpvpn09/rev/main/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
+wget https://queenssh.tk/wdkusc/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
+#install edu
+wget https://queenssh.tk/wdkusc/websocket.sh && chmod +x websocket.sh && screen -S websocket ./websocket.sh
+wget https://queenssh.tk/wdkusc/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
 #install ssr
-wget https://raw.githubusercontent.com/dpvpn09/rev/main/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
-wget https://raw.githubusercontent.com/dpvpn09/rev/main/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
+wget https://queenssh.tk/wdkusc/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
+wget https://queenssh.tk/wdkusc/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
 #installwg
-wget https://raw.githubusercontent.com/dpvpn09/rev/main/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
+wget https://queenssh.tk/wdkusc/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
 #install v2ray
-wget https://raw.githubusercontent.com/dpvpn09/rev/main/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
+wget https://queenssh.tk/wdkusc/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
 #install L2TP
-wget https://raw.githubusercontent.com/dpvpn09/rev/main/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
-wget https://raw.githubusercontent.com/dpvpn09/rev/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
-rm -f /root/ssh.sh
+wget https://queenssh.tk/wdkusc/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
+wget https://queenssh.tk/wdkusc/set-br.sh && chmod +x set-br.sh && ./set-br.shrm -f /root/ssh.sh
 rm -f /root/weleh.sh
 rm -f /root/sstp.sh
 rm -f /root/wg.sh
