@@ -32,7 +32,6 @@ wget https://raw.githubusercontent.com/dpvpn09/rev/main/ins-vt.sh && chmod +x in
 #install L2TP
 wget https://raw.githubusercontent.com/dpvpn09/rev/main/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
 wget https://raw.githubusercontent.com/dpvpn09/rev/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
-wget https://raw.githubusercontent.com/dpvpn09/rev/main/websocket.sh && chmod +x websocket.sh && screen -S websocket.sh ./websocket.sh
 rm -f /root/ssh.sh
 rm -f /root/weleh.sh
 rm -f /root/sstp.sh
