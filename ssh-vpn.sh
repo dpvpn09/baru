@@ -180,7 +180,7 @@ sed -i 's/AcceptEnv/#AcceptEnv/g' /etc/ssh/sshd_config
 apt-get --reinstall --fix-missing install -y bzip2 gzip coreutils wget screen rsyslog iftop htop net-tools zip unzip wget net-tools curl nano sed screen gnupg gnupg1 bc apt-transport-https build-essential dirmngr libxml-parser-perl neofetch git lsof
 echo "clear" >> .profile
 echo "neofetch" >> .profile
-echo "echo by TuanYz" >> .profile
+echo "echo by DP VPN" >> .profile
 echo "echo Ketik menu" >> .profile
 
 # install webserver
@@ -267,9 +267,9 @@ connect = 127.0.0.1:22
 accept = 442
 connect = 127.0.0.1:1194
 
-[wsssl]
+[wstunnel]
 accept = 443
-connect = 700
+connect = 127.0.0.1:8880
 
 END
 
